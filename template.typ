@@ -90,11 +90,11 @@
                 #text(author)
               ],
               {
-                if professors.len() > 0 {
-                  let title = if professors.len() > 1 {
-                    "Correlatori:"
-                  } else {
+                if professors.len() > 1 {
+                  let title = if professors.len() == 2 {
                     "Correlatore:"
+                  } else {
+                    "Correlatori:"
                   }
                   text(size: 14pt, weight: "bold", title)
                   linebreak()
