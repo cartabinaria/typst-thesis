@@ -1,8 +1,7 @@
 #let i18n = (
   en: (
+    date_format: "[month repr:short] [day padding:none], [year]",
     draft_dated: "Draft dated",
-    department_of: "Department of",
-    degree_course_in: "Degree programme class in",
     supervisor: "Supervisor",
     assistant_supervisor: "Assistant supervisor",
     assistant_supervisors: "Assistant supervisors",
@@ -14,9 +13,8 @@
     bibliography: "Bibliography",
   ),
   it: (
+    date_format: "[day]/[month]/[year]",
     draft_dated: "Bozza del",
-    department_of: "Dipartimento di",
-    degree_course_in: "Corso di",
     supervisor: "Relatore",
     assistant_supervisor: "Correlatore",
     assistant_supervisors: "Correlatori",

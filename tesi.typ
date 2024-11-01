@@ -11,8 +11,8 @@
     "Prof. Gatto Silvestro",
     "Dott. Paperino"
   ),
-  department: "Televisione dei Ragazzi",
-  course: "Laurea in Scienze dell'Albero Azzurro",
+  department: "Dipartimento della Televisione dei Ragazzi",
+  course: "Corso di Laurea in Scienze dell'Albero Azzurro",
   session: "Luglio",
   academic_year: "2000/2001",
   abstract: [

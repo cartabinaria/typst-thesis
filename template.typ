@@ -46,7 +46,14 @@
       inset: .5em,
       align(
         center + horizon,
-        text(fill: red, size: 18pt, [#i18n.at(locale).draft_dated #datetime.today().display("[day]/[month]/[year]")]),
+        text(
+          fill: red,
+          size: 18pt,
+          [
+            #i18n.at(locale).draft_dated
+            #datetime.today().display(i18n.at(locale).date_format)
+          ]
+        ),
       ),
     )
   } else {
@@ -60,10 +67,10 @@
         #image(logo, width: 6.5cm)
         #v(2em, weak: true)
 
-        #upper[#i18n.at(locale).department_of #text(department)]
+        #upper[#text(department)]
         #v(2em, weak: true)
 
-        #text(size: 14pt, strong([#i18n.at(locale).degree_course_in #text(course)]))
+        #text(size: 14pt, strong([#text(course)]))
         #line(stroke: (dash: "dotted", thickness: 1pt), length: 100%)
         #v(5em)
 
