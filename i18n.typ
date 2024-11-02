@@ -1,0 +1,28 @@
+#let i18n = (
+  en: (
+    date_format: "[month repr:short] [day padding:none], [year]",
+    draft_dated: "Draft dated",
+    supervisor: "Supervisor",
+    assistant_supervisor: "Assistant supervisor",
+    assistant_supervisors: "Assistant supervisors",
+    presented_by: "Presented by",
+    graduation_session_of: "Graduation session of",
+    academic_year: "Academic year",
+    abstract: "Abstract",
+    table_of_contents: "Table of contents",
+    bibliography: "Bibliography",
+  ),
+  it: (
+    date_format: "[day]/[month]/[year]",
+    draft_dated: "Bozza del",
+    supervisor: "Relatore",
+    assistant_supervisor: "Correlatore",
+    assistant_supervisors: "Correlatori",
+    presented_by: "Presentata da",
+    graduation_session_of: "Sessione di",
+    academic_year: "Anno accademico",
+    abstract: "Sommario",
+    table_of_contents: "Indice dei contenuti",
+    bibliography: "Bibliografia",
+  ),
+)

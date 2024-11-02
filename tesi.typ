@@ -12,9 +12,9 @@
     "Dott. Paperino"
   ),
   department: "Dipartimento della Televisione dei Ragazzi",
-  course: "Laurea in Scienze dell'Albero Azzurro",
-  session: "di Luglio",
-  aa: "2000/2001",
+  course: "Corso di Laurea in Scienze dell'Albero Azzurro",
+  session: "Luglio",
+  academic_year: "2000/2001",
   abstract: [
     #lorem(100)
   ],
@@ -22,6 +22,8 @@
     A quella puntata della Melevisione interrotta a metà.
   ],
   final: true,
+  // locale: "en",
+  // bibliography_file: "./bib.yml",
 )
 
 = Introduzione
@@ -41,9 +43,3 @@ if x == 1 {
   print("Hello, world!")
 }
 ```
-
-
-
-
-
-
