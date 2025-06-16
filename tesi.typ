@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2023 cristian-5 <cristianantonuccio@icloud.com>
+// SPDX-FileCopyrightText: 2024 Eyad Issa <eyadlorenzo@gmail.com>
+// SPDX-FileCopyrightText: 2024 daddinuz <daddinuz@gmail.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 #import "template.typ": *
 #import "@preview/codly:1.0.0": *
 
@@ -18,7 +24,7 @@
   abstract: [
     #lorem(100)
   ],
-  dedication: [ 
+  dedication: [
     A quella puntata della Melevisione interrotta a metà.
   ],
   final: true,
