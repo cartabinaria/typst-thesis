@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 daddinuz <daddinuz@gmail.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 #let i18n = (
   en: (
     date_format: "[month repr:short] [day padding:none], [year]",
